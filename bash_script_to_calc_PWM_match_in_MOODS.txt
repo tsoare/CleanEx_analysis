@@ -1,0 +1,7 @@
+python moods_dna.py -m /Users/tsoare/Documents/Insight/data/matrices/*.pfm \
+-s /Users/tsoare/Documents/Insight/data/promoter_seq_clean.fa \
+-p 0.0001 \
+-o /Users/tsoare/Documents/Insight/data/moods_out.txt \
+--bg 0.235 0.269 0.266 0.230 \
+--lo-bg 0.235 0.269 0.266 0.230 \
+--batch
